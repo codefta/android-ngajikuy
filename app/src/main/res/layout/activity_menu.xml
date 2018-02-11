@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffb366"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Ahlan Wa Sahlan, Akh!"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            />
+        <LinearLayout
+            android:id="@+id/fulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fulan Bin Fulan"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="#ffff"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/klik1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ebf76a"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/ic_chrome_reader_mode_black_24dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:text="Dzikir"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:paddingTop="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klik2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#94f26d"
+            android:orientation="horizontal"
+            android:paddingBottom="40dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/ic_pan_tool_black_24dp" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_pan_tool_black_24dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doa"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:paddingTop="30dp"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/klik3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4f8cef"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/ic_replay_30_black_24dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penghitung"
+            android:paddingTop="20dp"
+            android:textColor="#ffff"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffb366"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NgajiKuy!"
+        android:textColor="#662900"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:paddingBottom="120dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="400dp"
+        android:background="#e65c00"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:paddingTop="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukan Nama"
+            android:textAlignment="center"
+            android:textColor="#331400"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/nama"
+            android:textAlignment="center"
+            android:textColor="#f2f2f2"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#f2f2f2"/>
+
+        <Button
+            android:id="@+id/btn_satu"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:text="Bismillah" />
+    </LinearLayout>
+</LinearLayout>
